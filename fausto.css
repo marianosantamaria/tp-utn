@@ -1,0 +1,87 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+
+body{
+   
+    /* Aquí el origen de la imagen */
+  background-image: url('fondoxl.jpg');
+
+  /* Fijar la imagen de fondo este vertical y
+    horizontalmente y centrado */
+  background-position: center center;
+
+  /* Esta imagen no debe de repetirse */
+  background-repeat: no-repeat;
+
+  /* COn esta regla fijamos la imagen en la pantalla. */
+ 
+  background-attachment: fixed;
+  /* La imagen ocupa el 100% y se reescala */
+  background-size: cover;
+
+  /* Damos un color de fondo mientras la imagen está cargando  */
+  background-color: #464646;
+  }
+
+.fixed {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+  position: fixed;
+  left: 0;
+  top: 0;  }
+.wrap{
+
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: rgb(255,255,255);
+  font-size: 30px;
+  font-family:fantasy;
+  position: sticky;
+
+}
+
+
+
+h1{
+   
+    text-align: center;
+    color: chartreuse;
+    position: sticky;
+}
+
+/*
+-----------------------------
+
+NAVEGACION
+-------------------------
+
+*/
+
+.nav {
+
+  margin-bottom: 25px;
+}
+
+.nav-lista {
+  
+  background-color: chartreuse;
+  
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
